@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid min-h-screen grid-rows-[20px_1fr_20px] items-center justify-items-center gap-16 p-8 pb-20 font-[family-name:var(--font-geist-sans)] sm:p-20">
+    <div>
       <main className="row-start-2 flex flex-col items-center gap-8 sm:items-start">
         <Image
           className="dark:invert"
@@ -78,18 +78,6 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
-      <div className="mt-6 hidden flex-wrap gap-3 md:flex">
-        <main className="background-light850_dark100 relative">
-          <div className="flex">
-            <section className="flex min-h-screen flex-1 flex-col px-6 pb-6 pt-36 max-md:pb-14 sm:px-14">
-              <div className="mx-auto w-full max-w-5xl">{"Hello World"}</div>
-            </section>
-          </div>
-          <div>
-            <p>Toaster</p>
-          </div>
-        </main>
-      </div>
     </div>
   );
 }
