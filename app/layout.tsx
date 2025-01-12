@@ -71,6 +71,30 @@ export const metadata7: Metadata = {
   },
 };
 
+export const metadata8: Metadata = {
+  title: "Dev Flow",
+  description: "Another way to stack-over-flow",
+  icons: {
+    icon: "/images/site-logo.svg",
+  },
+};
+
+export const metadata9: Metadata = {
+  title: "Dev Flow",
+  description: "Another way to stack-over-flow",
+  icons: {
+    icon: "/images/site-logo.svg",
+  },
+};
+
+export const metadata10: Metadata = {
+  title: "Dev Flow",
+  description: "Another way to stack-over-flow",
+  icons: {
+    icon: "/images/site-logo.svg",
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
