@@ -23,6 +23,14 @@ export const metadata: Metadata = {
   },
 };
 
+export const metadata2: Metadata = {
+  title: "Dev Flow",
+  description: "Another way to stack-over-flow",
+  icons: {
+    icon: "/images/site-logo.svg",
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
