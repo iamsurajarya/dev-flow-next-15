@@ -6,13 +6,11 @@ import "./globals.css";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
-  display: "swap",
 });
 
 const spaceGrotesk = SpaceGrotesk({
   subsets: ["latin"],
-  variable: "--font-space-grotesk",
-  display: "swap",
+  variable: "--font-space_grotesk",
 });
 
 export const metadata: Metadata = {
@@ -22,6 +20,8 @@ export const metadata: Metadata = {
     icon: "/images/site-logo.svg",
   },
 };
+
+console.log(inter.variable, spaceGrotesk.variable, "srj");
 
 export default function RootLayout({
   children,
