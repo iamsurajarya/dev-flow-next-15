@@ -3,8 +3,7 @@ export default function Home() {
     <div>
       <h1 className="font-sans">Suraj Font Inter</h1>
       <h1 className="font-sans">Suraj Font Inter</h1>
-      <h1 className="font-mono">Suraj Font Inter</h1>
-      <h1 className="font-spaceGrotesk">Ary Font Space Grotesk</h1>
+      <h1 className="font-spaceGrotesk">Suraj Arya Font Space Grotesk</h1>
     </div>
   );
 }
