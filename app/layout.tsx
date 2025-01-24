@@ -22,6 +22,13 @@ export const metadata: Metadata = {
     icon: "/images/site-logo.svg",
   },
 };
+export const metadata2: Metadata = {
+  title: "Dev Flow",
+  description: "Another way to stack-over-flow",
+  icons: {
+    icon: "/images/site-logo.svg",
+  },
+};
 
 console.log(inter.variable, spaceGrotesk.variable, "srj");
 
