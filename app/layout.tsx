@@ -3,6 +3,7 @@ import { Inter, Space_Grotesk as SpaceGrotesk } from "next/font/google";
 import React from "react";
 
 import "./globals.css";
+import Navbar from "@/components/ui/navigation/Navbar";
 import ThemeProvider from "@/context/Theme";
 
 const inter = Inter({
@@ -22,15 +23,6 @@ export const metadata: Metadata = {
     icon: "/images/site-logo.svg",
   },
 };
-export const metadata2: Metadata = {
-  title: "Dev Flow",
-  description: "Another way to stack-over-flow",
-  icons: {
-    icon: "/images/site-logo.svg",
-  },
-};
-
-console.log(inter.variable, spaceGrotesk.variable, "srj");
 
 export default function RootLayout({
   children,
@@ -39,13 +31,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.variable} ${spaceGrotesk.variable} antialiased`}>
+      <body className={`${inter.className} ${spaceGrotesk.variable} antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
+          <Navbar />
           {children}
         </ThemeProvider>
       </body>
