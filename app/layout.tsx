@@ -3,7 +3,6 @@ import { Inter, Space_Grotesk as SpaceGrotesk } from "next/font/google";
 import React from "react";
 
 import "./globals.css";
-import Navbar from "@/components/ui/navigation/Navbar";
 import ThemeProvider from "@/context/Theme";
 
 const inter = Inter({
@@ -38,7 +37,6 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Navbar />
           {children}
         </ThemeProvider>
       </body>
